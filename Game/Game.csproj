@@ -56,6 +56,12 @@
     <Compile Include="DifficultySelection.Designer.cs">
       <DependentUpon>DifficultySelection.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameInterface.Designer.cs">
+      <DependentUpon>GameInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="IntroductionTab.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DifficultySelection.resx">
       <DependentUpon>DifficultySelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameInterface.resx">
+      <DependentUpon>GameInterface.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IntroductionTab.resx">
       <DependentUpon>IntroductionTab.cs</DependentUpon>
