@@ -16,5 +16,25 @@ namespace Game
         {
             InitializeComponent();
         }
+
+        private void btnEasy_Click(object sender, EventArgs e)
+        {
+            Game.Properties.Settings.Default.Difficulty = "Easy";
+        }
+
+        private void btnmedium_Click(object sender, EventArgs e)
+        {
+            Game.Properties.Settings.Default.Difficulty = "Medium";
+        }
+
+        private void btnHard_Click(object sender, EventArgs e)
+        {
+            Game.Properties.Settings.Default.Difficulty = "Hard";
+        }
+
+        private void startgame()
+        {
+
+        }
     }
 }

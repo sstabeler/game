@@ -51,6 +51,7 @@
             this.btnEasy.TabIndex = 1;
             this.btnEasy.Text = "Easy";
             this.btnEasy.UseVisualStyleBackColor = true;
+            this.btnEasy.Click += new System.EventHandler(this.btnEasy_Click);
             // 
             // btnmedium
             // 
@@ -60,6 +61,7 @@
             this.btnmedium.TabIndex = 2;
             this.btnmedium.Text = "Medium";
             this.btnmedium.UseVisualStyleBackColor = true;
+            this.btnmedium.Click += new System.EventHandler(this.btnmedium_Click);
             // 
             // btnHard
             // 
@@ -69,6 +71,7 @@
             this.btnHard.TabIndex = 3;
             this.btnHard.Text = "Hard";
             this.btnHard.UseVisualStyleBackColor = true;
+            this.btnHard.Click += new System.EventHandler(this.btnHard_Click);
             // 
             // DifficultySelection
             // 
