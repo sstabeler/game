@@ -69,6 +69,7 @@
             this.btnProceedToGame.TabIndex = 3;
             this.btnProceedToGame.Text = "Proceed To Game";
             this.btnProceedToGame.UseVisualStyleBackColor = true;
+            this.btnProceedToGame.Click += new System.EventHandler(this.btnProceedToGame_Click);
             // 
             // rbnStartGameAutomatically
             // 

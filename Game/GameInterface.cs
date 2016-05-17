@@ -15,6 +15,15 @@ namespace Game
         public GameInterface()
         {
             InitializeComponent();
+            switch(Game.Properties.Settings.Default.Difficulty)
+            {
+                case ("easy"):
+                    break;
+                case ("medium"):
+                    break;
+                case("hard"):
+                    break;
+            }
         }
     }
 }

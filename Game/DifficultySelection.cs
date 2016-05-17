@@ -20,21 +20,22 @@ namespace Game
         private void btnEasy_Click(object sender, EventArgs e)
         {
             Game.Properties.Settings.Default.Difficulty = "Easy";
+            GameInterface easygame = new GameInterface();
+            easygame.Show();
         }
 
         private void btnmedium_Click(object sender, EventArgs e)
         {
             Game.Properties.Settings.Default.Difficulty = "Medium";
+            GameInterface mediumgame = new GameInterface();
+            mediumgame.Show();
         }
 
         private void btnHard_Click(object sender, EventArgs e)
         {
             Game.Properties.Settings.Default.Difficulty = "Hard";
-        }
-
-        private void startgame()
-        {
-
+            GameInterface hardgame = new GameInterface();
+            hardgame.Show();
         }
     }
 }
