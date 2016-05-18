@@ -17,6 +17,17 @@ namespace Game
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new IntroductionTab());
+            
         }
     }
+    [Serializable]
+    public class question
+    {
+        string question;
+        string correctanswer;
+        string answer1;
+        string answer2;
+        string answer3;
+    }
+
 }

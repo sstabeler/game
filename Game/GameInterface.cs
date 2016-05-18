@@ -18,10 +18,14 @@ namespace Game
             switch(Game.Properties.Settings.Default.Difficulty)
             {
                 case ("easy"):
+                    List<question> easyquestions = new List<question>();
+
                     break;
                 case ("medium"):
+                    List<question> mediumquestions = new List<question>();
                     break;
                 case("hard"):
+                    List<question> hardquestions = new List<question>();
                     break;
             }
         }
