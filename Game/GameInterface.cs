@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Game
 {
@@ -19,8 +20,12 @@ namespace Game
             {
                 case ("easy"):
                     List<question> easyquestions = new List<question>();
-
-                    break;
+                    using (StreamReader sr = new StreamReader("easyquestions.txt"))
+                    { 
+                    
+                    }
+                   
+                        break;
                 case ("medium"):
                     List<question> mediumquestions = new List<question>();
                     break;
