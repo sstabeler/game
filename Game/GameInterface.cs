@@ -56,8 +56,6 @@ namespace Game
             {
                 question currentquestion = new question();
                 currentquestion = gamequestions.Pop();
-
-                
             }
         }
     }
