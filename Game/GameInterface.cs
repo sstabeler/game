@@ -17,8 +17,25 @@ namespace Game
         public GameInterface()
         {
             InitializeComponent();
-            
-            
+            rungame();
+        }
+
+        public void rungame()
+        {
+            datastorage.currentquestion = datastorage.gamequestions.Pop();
+            txtQuestion.Text = datastorage.currentquestion.question;
+            rbtnCorrectanswer.Text = datastorage.currentquestion.correctanswer;
+            rbtnanswer1.Text = datastorage.currentquestion.answer1;
+            rbtnanswer2.Text = datastorage.currentquestion.answer2;
+            rbtnanswer3.Text = datastorage.currentquestion.answer3;
+        }
+
+        private void btnAnswer_MouseClick(object sender, MouseEventArgs e)
+        {
+            if(rbtnCorrectanswer.Checked)
+            {
+
+            }
         }
        
     }

@@ -27,6 +27,7 @@ namespace Game
     public class datastorage
     {
         public static Stack<question> gamequestions;
+        public static question currentquestion;
 
     }
     public class question
@@ -41,16 +42,4 @@ namespace Game
 
 }
 
-            switch(Game.Properties.Settings.Default.Difficulty)
-            {
-                case ("easy"):
-                   
-
-                        break;
-                case ("medium"):
-                  
-                    break;
-                case("hard"):
-                    
-                    break;
-            }
+         

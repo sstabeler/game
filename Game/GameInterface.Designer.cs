@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.txtQuestion = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rbtnCorrectanswer = new System.Windows.Forms.RadioButton();
+            this.rbtnanswer1 = new System.Windows.Forms.RadioButton();
+            this.rbtnanswer2 = new System.Windows.Forms.RadioButton();
+            this.rbtnanswer3 = new System.Windows.Forms.RadioButton();
             this.btnAnswer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,49 +45,49 @@
             this.txtQuestion.Size = new System.Drawing.Size(622, 119);
             this.txtQuestion.TabIndex = 0;
             // 
-            // radioButton1
+            // rbtnCorrectanswer
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(138, 225);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtnCorrectanswer.AutoSize = true;
+            this.rbtnCorrectanswer.Location = new System.Drawing.Point(138, 225);
+            this.rbtnCorrectanswer.Name = "rbtnCorrectanswer";
+            this.rbtnCorrectanswer.Size = new System.Drawing.Size(85, 17);
+            this.rbtnCorrectanswer.TabIndex = 1;
+            this.rbtnCorrectanswer.TabStop = true;
+            this.rbtnCorrectanswer.Text = "radioButton1";
+            this.rbtnCorrectanswer.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtnanswer1
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(138, 249);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtnanswer1.AutoSize = true;
+            this.rbtnanswer1.Location = new System.Drawing.Point(138, 249);
+            this.rbtnanswer1.Name = "rbtnanswer1";
+            this.rbtnanswer1.Size = new System.Drawing.Size(85, 17);
+            this.rbtnanswer1.TabIndex = 2;
+            this.rbtnanswer1.TabStop = true;
+            this.rbtnanswer1.Text = "radioButton2";
+            this.rbtnanswer1.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbtnanswer2
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(138, 273);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbtnanswer2.AutoSize = true;
+            this.rbtnanswer2.Location = new System.Drawing.Point(138, 273);
+            this.rbtnanswer2.Name = "rbtnanswer2";
+            this.rbtnanswer2.Size = new System.Drawing.Size(85, 17);
+            this.rbtnanswer2.TabIndex = 3;
+            this.rbtnanswer2.TabStop = true;
+            this.rbtnanswer2.Text = "radioButton3";
+            this.rbtnanswer2.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rbtnanswer3
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(138, 297);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rbtnanswer3.AutoSize = true;
+            this.rbtnanswer3.Location = new System.Drawing.Point(138, 297);
+            this.rbtnanswer3.Name = "rbtnanswer3";
+            this.rbtnanswer3.Size = new System.Drawing.Size(85, 17);
+            this.rbtnanswer3.TabIndex = 4;
+            this.rbtnanswer3.TabStop = true;
+            this.rbtnanswer3.Text = "radioButton4";
+            this.rbtnanswer3.UseVisualStyleBackColor = true;
             // 
             // btnAnswer
             // 
@@ -97,6 +97,7 @@
             this.btnAnswer.TabIndex = 5;
             this.btnAnswer.Text = "Answer Question";
             this.btnAnswer.UseVisualStyleBackColor = true;
+            this.btnAnswer.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnAnswer_MouseClick);
             // 
             // GameInterface
             // 
@@ -104,10 +105,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 623);
             this.Controls.Add(this.btnAnswer);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbtnanswer3);
+            this.Controls.Add(this.rbtnanswer2);
+            this.Controls.Add(this.rbtnanswer1);
+            this.Controls.Add(this.rbtnCorrectanswer);
             this.Controls.Add(this.txtQuestion);
             this.Name = "GameInterface";
             this.Text = "GameInterface";
@@ -119,10 +120,10 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtQuestion;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rbtnCorrectanswer;
+        private System.Windows.Forms.RadioButton rbtnanswer1;
+        private System.Windows.Forms.RadioButton rbtnanswer2;
+        private System.Windows.Forms.RadioButton rbtnanswer3;
         private System.Windows.Forms.Button btnAnswer;
     }
 }

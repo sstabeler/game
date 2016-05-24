@@ -19,7 +19,7 @@ namespace Game
 
         private void btnProceedToGame_Click(object sender, EventArgs e)
         {
-            DifficultySelection difficultyselection= new DifficultySelection;
+            DifficultySelection difficultyselection= new DifficultySelection();
             difficultyselection.Show();
         }
     }
