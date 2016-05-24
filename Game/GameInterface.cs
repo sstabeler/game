@@ -22,6 +22,13 @@ namespace Game
             {
                 case ("easy"):
                     List<question> easyquestions = new List<question>();
+                    question newquestion = new question();
+                    newquestion.question = "question1";
+                    newquestion.correctanswer = "correctanswer";
+                    newquestion.answer1 = "answer1";
+                    newquestion.answer2 = "answer2";
+                    newquestion.answer3 = "answer3";
+                    easyquestions.Add(newquestion);
                     for (int i =0; i < 10; i++)
                     {
                        Random rnd = new Random(easyquestions.Count);
@@ -31,6 +38,13 @@ namespace Game
                         break;
                 case ("medium"):
                     List<question> mediumquestions = new List<question>();
+                    newquestion = new question();
+                    newquestion.question = "question1";
+                    newquestion.correctanswer = "correctanswer";
+                    newquestion.answer1 = "answer1";
+                    newquestion.answer2 = "answer2";
+                    newquestion.answer3 = "answer3";
+                    mediumquestions.Add(newquestion);
                     for (int i =0; i < 10; i++)
                      {
                        Random rnd = new Random(mediumquestions.Count);
@@ -40,6 +54,13 @@ namespace Game
                     break;
                 case("hard"):
                     List<question> hardquestions = new List<question>();
+                    newquestion = new question();
+                    newquestion.question = "question1";
+                    newquestion.correctanswer = "correctanswer";
+                    newquestion.answer1 = "answer1";
+                    newquestion.answer2 = "answer2";
+                    newquestion.answer3 = "answer3";
+                    hardquestions.Add(newquestion);
                     for (int i =0; i < 10; i++)
                      {
                        Random rnd = new Random(hardquestions.Count);

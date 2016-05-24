@@ -25,12 +25,11 @@ namespace Game
     }
     public class question
     {
-        string question;
-        string correctanswer;
-        string answer1;
-        string answer2;
-        string answer3;
-
+        public string question;
+        public string correctanswer;
+        public string answer1;
+        public string answer2;
+        public string answer3;
 
     }
 
