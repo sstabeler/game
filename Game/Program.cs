@@ -23,6 +23,12 @@ namespace Game
             
         }
     }
+
+    public class datastorage
+    {
+        public static Stack<question> gamequestions;
+
+    }
     public class question
     {
         public string question;
@@ -34,3 +40,17 @@ namespace Game
     }
 
 }
+
+            switch(Game.Properties.Settings.Default.Difficulty)
+            {
+                case ("easy"):
+                   
+
+                        break;
+                case ("medium"):
+                  
+                    break;
+                case("hard"):
+                    
+                    break;
+            }
