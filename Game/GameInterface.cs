@@ -55,6 +55,21 @@ namespace Game
                         break;
                 }
             }
+            else
+            {
+                switch (Game.Properties.Settings.Default.Difficulty)
+                {
+                    case "Easy":
+                        Game.Properties.Settings.Default.CurrentScore -= 10;
+                        break;
+                    case "Medium":
+                        Game.Properties.Settings.Default.CurrentScore -= 20;
+                        break;
+                    case "Hard":
+                        Game.Properties.Settings.Default.CurrentScore -= 30;
+                        break;
+                }
+            }
             
             
         }
