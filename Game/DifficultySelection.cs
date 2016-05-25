@@ -30,8 +30,8 @@ namespace Game
             easyquestions.Add(newquestion);
             for (int i = 0; i < 10; i++)
             {
-                Random rnd = new Random(easyquestions.Count);
-                int j = rnd.Next();
+                Random rnd = new Random();
+                int j = rnd.Next(0, easyquestions.Count);
                 datastorage.gamequestions.Push(easyquestions[j]);
             }
             GameInterface easygame = new GameInterface();

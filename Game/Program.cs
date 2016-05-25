@@ -26,7 +26,7 @@ namespace Game
 
     public class datastorage
     {
-        public static Stack<question> gamequestions;
+        public static Stack<question> gamequestions = new Stack<question>();
         public static question currentquestion;
 
     }
