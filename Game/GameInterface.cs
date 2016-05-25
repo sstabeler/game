@@ -36,6 +36,7 @@ namespace Game
             {
                 MessageBox.Show("Game Over");
                 Game.Properties.Settings.Default.Scores.Add(Game.Properties.Settings.Default.CurrentScore.ToString());
+                this.Close();
             }
         }
 
