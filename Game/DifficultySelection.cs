@@ -22,7 +22,7 @@ namespace Game
             Game.Properties.Settings.Default.Difficulty = "Easy";
             List<question> easyquestions = new List<question>();
             question newquestion = new question();
-            newquestion.question = "question1";
+            newquestion.actualquestion = "question1";
             newquestion.correctanswer = "correctanswer";
             newquestion.answer1 = "answer1";
             newquestion.answer2 = "answer2";
@@ -43,7 +43,7 @@ namespace Game
             Game.Properties.Settings.Default.Difficulty = "Medium";
             List<question> mediumquestions = new List<question>();
             question newquestion = new question();
-            newquestion.question = "question1";
+            newquestion.actualquestion = "question1";
             newquestion.correctanswer = "correctanswer";
             newquestion.answer1 = "answer1";
             newquestion.answer2 = "answer2";
@@ -64,7 +64,7 @@ namespace Game
             Game.Properties.Settings.Default.Difficulty = "Hard";
             List<question> hardquestions = new List<question>();
             question newquestion = new question();
-            newquestion.question = "question1";
+            newquestion.actualquestion = "question1";
             newquestion.correctanswer = "correctanswer";
             newquestion.answer1 = "answer1";
             newquestion.answer2 = "answer2";

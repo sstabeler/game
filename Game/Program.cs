@@ -32,7 +32,7 @@ namespace Game
     }
     public class question
     {
-        public string question;
+        public string actualquestion;
         public string correctanswer;
         public string answer1;
         public string answer2;

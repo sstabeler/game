@@ -26,7 +26,7 @@ namespace Game
             if (datastorage.gamequestions.Count > 0 && Game.Properties.Settings.Default.CurrentScore > 0)
             {
                 datastorage.currentquestion = datastorage.gamequestions.Pop();
-                txtQuestion.Text = datastorage.currentquestion.question;
+                txtQuestion.Text = datastorage.currentquestion.actualquestion;
                 rbtnCorrectanswer.Text = datastorage.currentquestion.correctanswer;
                 rbtnanswer1.Text = datastorage.currentquestion.answer1;
                 rbtnanswer2.Text = datastorage.currentquestion.answer2;
