@@ -17,6 +17,7 @@ namespace Game
         public GameInterface()
         {
             InitializeComponent();
+            Game.Properties.Settings.Default.CurrentScore = 40;
             rungame();
         }
 
