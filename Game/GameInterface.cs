@@ -22,7 +22,7 @@ namespace Game
 
         public void rungame()
         {
-            if (datastorage.gamequestions.Count > 0)
+            if (datastorage.gamequestions.Count > 0 && Game.Properties.Settings.Default.CurrentScore > 0)
             {
                 datastorage.currentquestion = datastorage.gamequestions.Pop();
                 txtQuestion.Text = datastorage.currentquestion.question;
